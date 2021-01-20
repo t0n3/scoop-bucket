@@ -20,9 +20,7 @@
         "AVFS.exe"
     ],
     "persist": "vapoursynth64\\plugins",
-    "suggest": {
-        "Python3": "python"
-    },
+    "depends": "python",
     "checkver": {
         "url": "https://github.com/vapoursynth/vapoursynth/releases/latest",
         "re": "/releases/tag/(R([\\d]+))"
